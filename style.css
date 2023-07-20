@@ -1,0 +1,54 @@
+.box {
+  display: flex;
+  align-items: stretch;
+}
+
+.red {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  width: 600px;
+  height: 500px;
+  background-color: red;
+  flex-grow: 4;
+  margin-right: 20px;
+}
+.orange {
+  display: flex;
+  width: 300px;
+  height: 500px;
+  background-color: orange;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+.purple {
+  display: flex;
+  width: 300px;
+  height: 500px;
+  background-color: purple;
+  flex-grow: 1;
+}
+
+header {
+  position: static;
+  top: 0;
+  padding: 0px;
+  margin: 0px;
+  width: 974px;
+  height: 100px;
+  background-color: aqua;
+}
+
+footer {
+  width: 974px;
+  height: 100px;
+  background-color: blue;
+}
+.button {
+  background-color: black;
+  position: fixed;
+  right: 280px;
+  bottom: 120px;
+  width: 5%;
+  height: 8%;
+}
